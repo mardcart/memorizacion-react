@@ -20,7 +20,7 @@ const Contador = () => {
         </nav>
         <h3>{contador}</h3>
         <input type='text' onChange={onChangeInput} value={input}/>
-        <ContadorHijo contador={contador} sumar={sumar} restas={restar}/>
+        <ContadorHijo contador={contador} sumar={sumar} restar={restar}/>
     </div>
   )
 }
